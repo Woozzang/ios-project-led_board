@@ -52,6 +52,9 @@
 
 ✅  기본적인 화면 구성
 <br />
+<br />
+<br />
+
 # 2단계
 
 ✅ Outlet 연결 후, 코드로 UI 수정
@@ -119,6 +122,7 @@ func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 ```
 <br />
 <br />
+
 # 5단계
 
 ✅  탭 제스처를 클릭씨 상단 View 가 토글 형태로 숨겼다 보였다 하는 기능을 구현
