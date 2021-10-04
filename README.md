@@ -1,14 +1,15 @@
 # LED-Board
 
 입력한 텍스트를 전광판 화면에 보여주는 앱 🌱 ([SSAC](https://github.com/Woozzang/ssac-bless-me) 과제 프로젝트)
-#
+<br />
 ![1](/Resources/1.gif)
 
-#
+<br />
+
 사용 개념 : `UITextField`, `FirstResponder`, `UIButton`, `TapGestureRecognizer`, `Delegation`, `Target-Action`, `UIScrollview`
 
 
-#
+<br />
 # 1단계
 
 ✅  iOS Version, Device Orientation 설정
@@ -50,7 +51,7 @@
 ```
 
 ✅  기본적인 화면 구성
-#
+<br />
 # 2단계
 
 ✅ Outlet 연결 후, 코드로 UI 수정
@@ -90,13 +91,13 @@ private func applyRoundDesign(to view: UIView) {
     resultLabel.textColor = randomColor
 }
 ```
-#
+<br />
 # 3단계
 
 ✅  탭 제스쳐가 실행되면 키보드를 내려주기
 
 → TapGestureRecognizer 는 RootView 에 추가해주었고, 액션을 연결하여 resignFristResponder() 를 호출해주었다.
-#
+<br />
 # 4단계
 
 ✅  키보드 리턴키를 누르면 키보드가 내려가게 구현하기
@@ -112,7 +113,7 @@ func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     return true
 }
 ```
-#
+<br />
 # 5단계
 
 ✅  탭 제스처를 클릭씨 상단 View 가 토글 형태로 숨겼다 보였다 하는 기능을 구현
@@ -122,6 +123,5 @@ func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 → 기존의 스크롤뷰 기존 설정은 그대로 진행
 
 → UILabel 과 스크롤뷰의 컨텐츠 루트뷰에 스페이싱 제약을 걸고, 상위뷰의 width 제약을 equltTo 에서 greaterThan 으로 바꿔주면 동적으로 증가한당!
-#
-
+<br />
 ![Untitled](/Resources/2.gif)
