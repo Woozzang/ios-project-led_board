@@ -7,9 +7,9 @@
 <br />
 
 사용 개념 : `UITextField`, `FirstResponder`, `UIButton`, `TapGestureRecognizer`, `Delegation`, `Target-Action`, `UIScrollview`
-
-
 <br />
+<br />
+
 # 1단계
 
 ✅  iOS Version, Device Orientation 설정
@@ -92,12 +92,16 @@ private func applyRoundDesign(to view: UIView) {
 }
 ```
 <br />
+<br />
+
 # 3단계
 
 ✅  탭 제스쳐가 실행되면 키보드를 내려주기
 
 → TapGestureRecognizer 는 RootView 에 추가해주었고, 액션을 연결하여 resignFristResponder() 를 호출해주었다.
 <br />
+<br />
+
 # 4단계
 
 ✅  키보드 리턴키를 누르면 키보드가 내려가게 구현하기
@@ -113,6 +117,7 @@ func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     return true
 }
 ```
+<br />
 <br />
 # 5단계
 
