@@ -1,7 +1,7 @@
 # LED-Board
 
 입력한 텍스트를 전광판 화면에 보여주는 앱 🌱 ([SSAC](https://github.com/Woozzang/ssac-bless-me) 과제 프로젝트)
-<br />
+<br /><br />
 ![1](/Resources/1.gif)
 
 <br />
@@ -95,7 +95,6 @@ private func applyRoundDesign(to view: UIView) {
 }
 ```
 <br />
-<br />
 
 # 3단계
 
@@ -120,7 +119,6 @@ func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     return true
 }
 ```
-<br />
 <br />
 
 # 5단계
