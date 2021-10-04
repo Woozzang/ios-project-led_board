@@ -4,7 +4,8 @@
 
 UITextField, FirstResponder, UIButton, TapGestureRecognizer, Delegate
 
-![Untitled](/Resources/1.gif){: width="400"}
+![1](https://user-images.githubusercontent.com/70905219/135827501-d1a86787-526f-48f2-9130-694496068c99.gif)
+
 
 # 1단계
 
